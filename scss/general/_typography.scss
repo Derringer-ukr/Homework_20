@@ -1,0 +1,91 @@
+body {
+    font-family: $primary-text;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: $color-primary;
+
+    @media screen and (min-width: $tablet-start) {
+        font-size: 19px;
+    }
+}
+
+a {
+    color: $color-title;
+    text-decoration: none;
+}
+
+.header {
+    color: $color-title;
+    &__title {
+        font-family: $primary-title;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+
+        @media screen and (min-width: $tablet-start) {
+            font-size: 33px;
+        }
+        @media screen and (min-width: $desktop) {
+            font-size: 48px;
+        }
+        
+    }
+
+    &__subtitle {
+        font-family: $primary-text;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5em;
+
+    }
+}
+
+.block-title {
+    font-family: $primary-title;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 155%;
+    letter-spacing: 0.1em;
+    color: $color-title;
+
+    @media screen and (min-width: $tablet-start) {
+        font-size: 28px;
+    }
+}
+
+.footer {
+
+    color: $color-title;
+
+    &__title {
+        font-family: $primary-title;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+
+        @media screen and (min-width: $tablet-start) {
+            font-size: 48px;
+            line-height: 64px;
+        }
+
+    }
+
+    &__call-to-action {
+        font-size: 18px;
+
+        @media screen and (min-width: $tablet-start) {
+            font-size: 16px;
+        }
+    }
+
+    &__copyright {
+        @media screen and (min-width: $tablet-start) {
+            font-size: 12px;
+        }
+    }
+}

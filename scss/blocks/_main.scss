@@ -1,0 +1,133 @@
+.img {
+    margin: 40px 0 20px;
+
+    @media screen and (min-width: $tablet-start) {
+            margin: 50px 0 20px;
+        }
+}
+
+.block {
+    margin-top: 70px;
+
+    @media screen and (min-width: $desktop) {
+        margin-top: 90px;
+    }
+
+
+    &:first-child {
+        @media screen and (min-width: $tablet-start) {
+                margin-top: 90px;
+        }
+    }
+
+}
+
+.main {
+    padding: 0 3.125vw;
+
+    @media screen and (min-width: $tablet-start) {
+            padding: 0 4.29vw;
+        }
+    
+    @media screen and (min-width: $desktop) {
+        padding: 0 9.375vw;
+    }
+    &__overview {
+
+        @media screen and (min-width: $desktop) {
+            width: 39.58vw;;
+        }
+
+        &-description:nth-child(2) {
+            margin-bottom: 20px;  
+        }
+
+        &-title {
+            margin-bottom: 40px;
+
+            @media screen and (min-width: $tablet-start) {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    &__research-img {
+        background-image: url(../img/small/image-2.png);
+        background-size: cover;
+        background-position-y: 100%;
+        width: 100%;
+        height: 93.75vw;
+        max-height: 380px;
+    
+        @media screen and (min-width: $tablet-start) {
+            background-image: url(../img/medium/image-2.png);
+            height: 49.4vw;
+            max-height: 500px;
+            background-position-y: 8%;
+        }
+        @media screen and (min-width: $desktop) {
+            background-image: url(../img/big/image.png);
+            height: 34.72vw;
+            max-height: none;
+            background-position-y: 100%;
+        }
+    }
+
+    &__research {
+        &-description:nth-child(3) {
+            margin-bottom: 20px;
+         }
+                
+    }
+
+    &__sketches-img {
+        background-image: url(../img/small/image-1.png);
+        background-size: cover;
+        background-position-y: 60%;
+        width: 100%;
+        height: 93.75vw;
+        max-height: 380px;
+    
+        @media screen and (min-width: $tablet-start) {
+            background-image: url(../img/medium/image-1.png);
+            height: 49.4vw;
+            max-height: 500px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            background-image: url(../img/big/image-3.png);
+            height: 34.72vw;
+            max-height: none;
+        }
+    }
+
+    &__sketches {
+        &-description:nth-child(3) {
+            margin-bottom: 20px;
+        }
+
+    }
+
+    &__final-design-img {
+        background-image: url(../img/small/image.png);
+        background-size: cover;
+        background-position-y: 73%;
+        width: 100%;
+        height: 93.75vw;
+        max-height: 380px;
+
+        @media screen and (min-width: $tablet-start) {
+            background-image: url(../img/medium/image.png);
+            height: 49.4vw;
+            max-height: 500px;
+            background-position-y: 8%;
+        }
+        @media screen and (min-width: $desktop) {
+            background-image: url(../img/big/img-2.png);
+            height: 34.72vw;
+            max-height: none;
+            background-position-y: 28%;
+        }
+    }
+}
+

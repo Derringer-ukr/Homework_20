@@ -1,0 +1,19 @@
+// fonts
+
+$primary-text: 'Lato', sans-serif;
+$primary-title: 'Red Hat Display', sans-serif;
+
+// colors
+
+$color-primary: #565656;
+$color-title: #000000;
+$color-footer-bg: #F4F4F4;;
+
+// breakpoints
+
+$desktop-big-start: 1441px;
+$desktop: 1440px;
+$tablet-end: $desktop - 1;
+$tablet-start: 768px;
+$mobile-end: $tablet-start - 1;
+$mobile: 320px;
